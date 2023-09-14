@@ -1,0 +1,100 @@
+header{
+    background-color: rgb(206, 201, 133);
+    height: 75px;
+    border: 1px solid black;
+    padding-left: 25px;
+    
+}
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav, footer
+{
+    background-color: rgb(126, 126, 126);
+    height: 35px;
+    border: 1px solid black;
+}
+
+nav{
+    padding-top: 10px;
+}
+
+
+footer
+{
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    clear:both
+}
+
+
+section{
+    border: 1px solid black;
+    background-color: rgb(206, 201, 133);
+    margin:10px;
+    padding:20px;
+}
+
+
+main{
+    width: 70%;
+    float: left;
+}
+
+aside
+{
+    width: 30%;
+    float: left;
+}
+
+
+.itemMenu{
+    display: inline;
+    margin-left: 30px;
+}
+
+h2{
+    margin-bottom: 0;
+}
+
+h3
+{
+    margin-top: 0;
+}
+
+.publicado{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(119, 118, 118);
+    font-size: small;
+    border-bottom: 1px solid rgb(119, 118, 118);
+}
+
+.parrafo{
+    font-size: small;
+    text-align: justify;
+}
+
+.cajita
+{
+    width: 190px;
+    height: 170px;
+    background-color: white;
+    float:right;
+
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+}
+
+img{
+    width:80%
+}
+
+
+.comentarios{
+    text-align: end;
+}
