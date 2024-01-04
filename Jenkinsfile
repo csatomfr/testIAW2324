@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Execute') {
       steps {
-        sh 'echo "Petando!!!"
+        sh 'echo "Petando!!!" '
         sh 'petepetepetepeteeee'
       }      
     }
