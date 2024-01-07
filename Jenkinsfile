@@ -1,4 +1,4 @@
-pipeline {
+/* pipeline {
   agent any
   stages {
     stage('Execute') {
@@ -27,5 +27,18 @@ pipeline {
       sh 'curl -X POST -H \'Content-Type: application/json\' -d \'{"chat_id": "902285901", "text": "Ha petado :( ", "disable_notification": false}\'  https://api.telegram.org/bot6972167273:AAFfUCU_9JQyRVkQSbftk_Sc3FVqSpE_SEg/sendMessage'
     }
 
+  }
+}
+*/
+
+node {
+  stage('SCM') {
+    checkout scm
+  }
+  stage('SonarQube Analysis') {
+    def scannerHome = tool 'SonarScanner';
+    withSonarQubeEnv() {
+      sh "${scannerHome}/bin/sonar-scanner"
+    }
   }
 }
