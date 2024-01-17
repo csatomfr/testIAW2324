@@ -1,4 +1,4 @@
-/* pipeline {
+ pipeline {
   agent any
   stages {
     stage('Execute') {
@@ -29,8 +29,8 @@
 
   }
 }
-*/
 
+/*
 node {
   stage('SCM') {
     checkout scm
@@ -42,3 +42,4 @@ node {
     }
   }
 }
+*/
