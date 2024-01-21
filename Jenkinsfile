@@ -4,7 +4,7 @@
     stage('Execute') {
       steps {
         sh 'echo "Petando!!!" '
-        sh 'petepetepetepeteeee'
+        sh 'echo petepetepetepeteeee'
       }
     }
 
