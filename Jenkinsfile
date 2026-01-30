@@ -3,6 +3,7 @@
   stages {
     stage('Execute') {
       steps {
+        sh 'PRUEBA 2026'
         sh 'echo "Petando!!!" '
         sh 'echo petepetepetepeteeee'
       }
